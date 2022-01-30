@@ -1,0 +1,99 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    
+    body { 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('pyramids.svg');
+    min-height: 100vh;
+    }
+    
+    header, .times , .time-names, .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    }
+    
+    header h1 {
+    font-size: 5rem;
+    font-family: 'Anton', sans-serif;
+    }
+    
+    .times span{
+    font-size: 4rem;
+    }
+    
+    
+    .buttons button:hover {
+    background-color: rgba(75, 75, 75, 0.685);
+    cursor: pointer;
+    }
+    
+    .buttons button {
+    margin: 30px;
+    padding: 20px;
+    margin-bottom: auto;
+    width: 17%;
+    border-radius: 25px;
+    background: transparent;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    }
+    
+    .time-names span {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    margin: 35px;
+    margin-bottom: auto;
+    }
+    
+    
+    .lap-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .lap-list {
+    min-width: 20%;
+    list-style: none;
+    }
+    
+    .newLap {
+    margin: 0.5rem; 
+    background: transparent;
+    color: black;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.4s ease;
+    }
+
+
+    @media only screen and (max-width: 600px) {
+        header h1 {
+        font-size: 3rem;
+        }
+        
+        .buttons button {
+        margin: 5px;
+        padding: 20px;
+        margin-bottom: auto;
+        width: 25%;
+        border-radius: 10px;
+        background: transparent;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        border: 2px solid black;
+        }
+    }

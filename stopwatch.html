@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="stopwatch.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <script src="stopwatch.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Mark's Stopwatch</h1>
+    </header>
+    <div class="times">
+       <span id="mins">00:</span>
+       <span id="seconds">00.</span>
+       <span id="mili">00</span>
+    </div>
+
+    <div class="time-names">
+        <span>mins</span>
+        <span>secs</span>
+        <span>mili</span>
+    </div>
+
+    <div class="buttons">
+        <button id="stop-btn">Stop</button>
+        <button id="start-btn">Start</button>
+        <button id="reset-btn">Reset</button>
+        <button id="lap-btn">Lap</button>
+    </div>
+
+    <div class="lap-container">
+        <ul class="lap-list">
+            
+        </ul>
+    </div>
+
+</body>
+</html>
